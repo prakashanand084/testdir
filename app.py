@@ -1,9 +1,10 @@
-def add_numbers(a, b):
-    return a + b
+def add_numbers(a, b, c):
+    return a + b +c
 
 if __name__ == "__main__":
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
+    num3 = float(input("Enter third number: "))
 
-    result = add_numbers(num1, num2)
-    print(f"The sum of {num1} and {num2} is {result}")
+    result = add_numbers(num1, num2, num3)
+    print(f"The sum of {num1},  {num2} and {num3} is {result}")
